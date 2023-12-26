@@ -15,7 +15,7 @@ services:
     depends_on:
       - hoppscotch-backend
     ports:
-      - "3010:8080"
+      - "3010:8081"
 
   hoppscotch-sh-admin:
     image: musketeers/hoppscotch:admin
